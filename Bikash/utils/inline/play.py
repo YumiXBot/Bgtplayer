@@ -62,12 +62,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="YouTube", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="Update", url=f"https://t.me/AloneXBots"
             ),
         
             InlineKeyboardButton(
                 text="Maintainer",
-                url=f"https://t.me/bikashbikash",
+                url=f"https://t.me/ALONE_WAS_BOT",
             )
         ],
         [
