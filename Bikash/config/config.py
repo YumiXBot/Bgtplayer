@@ -11,23 +11,23 @@ if os.path.exists("Internal"):
 
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_ID = int(getenv("BOT_ID", "7198638721"))
+BOT_ID = int(getenv("BOT_ID", "6127476417"))
 BOT_TOKEN = getenv("BOT_TOKEN")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "༺ 𝐁𝐠𝐭 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 ༻")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1439222689").split()))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "༺ 𝐀𝐥𝐨𝐧𝐞 𝐌𝐮𝐬𝐢𝐜 ༻")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6079943111").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/BikashHalderNew/Bgtplayer")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/YumiXBot/Bgtplayer")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "bikash")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BikashGadgetsTech")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Bgt_Chat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AloneXBots")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AlonesHeaven")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
-QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "150"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1000"))
+QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "1000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -35,7 +35,7 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
 )
 
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
-PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
+PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "True")
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "3"))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
@@ -71,8 +71,8 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/3127b3484676bd2254e97.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/7ae73d9b4f8b699676fa9.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg")
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg"
 GLOBAL_IMG_URL = "https://te.legra.ph/file/2e2741f5dfe9f62eed91d.png"
